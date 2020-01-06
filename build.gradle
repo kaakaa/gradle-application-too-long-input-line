@@ -3,6 +3,10 @@ plugins {
     id 'application'
 }
 
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 application.mainClassName = 'sample.Main'
 
 // Workaround for https://support.microsoft.com/ja-jp/help/830473/command-prompt-cmd-exe-command-line-string-limitation
